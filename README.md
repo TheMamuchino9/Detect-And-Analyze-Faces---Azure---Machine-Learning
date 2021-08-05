@@ -23,3 +23,20 @@ Each detected face is assigned a unique ID, allowing the application to identify
 To showcase the attributes such as gender, age and emotion, show_attributes is set True. 
 
 ![Figure_1](https://user-images.githubusercontent.com/86535567/128428735-d11824ed-3b62-486e-9b77-6bb71037c1f3.png)
+
+
+When faces are detected using the Face service, each one is assigned a unique Face Id. Face Ids are used to individually identify face detections. I used these IDs to compare a detected face to previously detected faces and find faces with similar features.
+
+
+![image](https://user-images.githubusercontent.com/86535567/128429035-54a0a0f5-e7bf-43fe-b915-ae2cd6960a90.png)
+
+
+Results:
+
+![Figure_1](https://user-images.githubusercontent.com/86535567/128429165-517f177d-f8ae-41c5-8c53-7336435df065.png)
+
+
+Same code with different faces:
+
+
+![Figure_1](https://user-images.githubusercontent.com/86535567/128429297-00f478bd-e3e7-4ae6-ae5f-548b980f7423.png)
